@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints
+
+# 환경 설정
+.env
+*.env
+*.DS_Store
+
+# 가상환경 폴더 (예: venv, env, .venv, clean_env 등)
+venv/
+env/
+.venv/
+clean_env/
+
+# VSCode 설정
+.vscode/
+
+# 엑셀 결과물 (출력 파일)
+*.xlsx
+!주소리스트.xlsx   # 원본 엑셀은 추적할 수 있게 제외 (선택)
+
+# 기타
+*.log
+*.tmp
+*.bak
